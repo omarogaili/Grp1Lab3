@@ -6,7 +6,7 @@ namespace SqlTestInjection
         UserValidation userValidation = new UserValidation();
         [Theory]
         [InlineData("omarogaili@hotmail.com", true)] // this one should pass
-        [InlineData("omarogaili", true)] // that one should fail 
+        [InlineData("omarogaili", false)] 
 
 
 
