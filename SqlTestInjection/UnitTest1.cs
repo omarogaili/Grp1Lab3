@@ -15,5 +15,18 @@ namespace SqlTestInjection
         {
             Assert.Equal(userValidation.IsValidEmail(userInput), expectedResult);
         }
+
+
+        // Ny testmetod för telefonnummer validering
+        [Theory]
+        [InlineData("0701234567", true)]    // 10 siffror
+        [InlineData("123456789012345", true)] // 15 siffror
+        [InlineData("070123456", false)]   // för få siffror
+        [InlineData("0701234567890123456", false)]  // för många siffror
+        [InlineData("070-1234567", false)]  // innehåller tecken
+        public void Get_the_Validation_of_The_UserInput_Phone(string userInput, bool expectedResult)
+        {
+            Assert.Equal(userValidation.IsValidPhoneNumber(userInput), expectedResult);
+        }
     }
 }

@@ -26,7 +26,6 @@ namespace SqlInjection
             string dbPass = "*********";
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
             MySqlConnection conn = new MySqlConnection(connString);
-
             // Hämta data från textfält
             string user = txtUser.Text;
             string pass = txtPass.Text;
