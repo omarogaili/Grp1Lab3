@@ -1164,7 +1164,10 @@
           "MySqlConnector": "2.3.7"
         },
         "runtime": {
-          "SqlInjection.dll": {}
+          "SqlInjection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

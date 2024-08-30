@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlTestInjection\\SqlTestInjection.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlTestInjection\\SqlTestInjection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\SqlInjection.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\SqlInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\SqlInjection.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\SqlInjection.csproj",
         "projectName": "SqlInjection",
-        "projectPath": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\SqlInjection.csproj",
-        "packagesPath": "C:\\Users\\Delza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\SqlInjection.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Delza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -78,24 +78,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlTestInjection\\SqlTestInjection.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlTestInjection\\SqlTestInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlTestInjection\\SqlTestInjection.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlTestInjection\\SqlTestInjection.csproj",
         "projectName": "SqlTestInjection",
-        "projectPath": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlTestInjection\\SqlTestInjection.csproj",
-        "packagesPath": "C:\\Users\\Delza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlTestInjection\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlTestInjection\\SqlTestInjection.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlTestInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Delza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,8 +111,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\SqlInjection.csproj": {
-                "projectPath": "C:\\Users\\Delza\\OneDrive\\Skrivbord\\allt\\IT Säkerhet\\grupparbeten\\SqlInjection\\SqlInjection.csproj"
+              "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\SqlInjection.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\lab3Sqltest\\SqlInjection\\SqlInjection.csproj"
               }
             }
           }
@@ -165,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
