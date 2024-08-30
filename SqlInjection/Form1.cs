@@ -26,31 +26,26 @@ namespace SqlInjection
             string dbPass = "*********";
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
             MySqlConnection conn = new MySqlConnection(connString);
-
             // Hämta data från textfält
             string user = txtUser.Text;
             string pass = txtPass.Text;
-
             // Validera att användarnamnet är en e-postadress eller telefonnummer
             if (!userValidation.IsValidEmail(user) && !userValidation.IsValidPhoneNumber(user))
             {
                 lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
                 return;
             }
-
             // Bygg upp SQL-query utan hashning
             string sqlQuery = "SELECT * FROM users WHERE users_username = @user AND users_password = @pass";
             MySqlCommand cmd = new MySqlCommand(sqlQuery, conn);
             cmd.Parameters.AddWithValue("@user", user);
             cmd.Parameters.AddWithValue("@pass", pass); // Använd lösenord direkt, utan hashning
             lblQuerry.Text = sqlQuery;
-
             // Exekvera query
             try
             {
                 conn.Open();
                 MySqlDataReader reader = cmd.ExecuteReader();
-
                 // Kontrollera resultatet
                 if (reader.Read())
                     lblStatus.Text = "Du har loggat in";
@@ -65,11 +60,6 @@ namespace SqlInjection
             {
                 conn.Close();
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

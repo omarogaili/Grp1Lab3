@@ -11,6 +11,7 @@ namespace SqlInjection
     {
         public bool IsValidEmail(string email)
         {
+
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";  // Kontrollerar e-posten
             return Regex.IsMatch(email, emailPattern);
         }
